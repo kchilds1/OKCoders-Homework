@@ -1,0 +1,182 @@
+* {
+    Box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+}
+
+body {
+  background-image: url("https://elementalcoffee.com/wp-content/uploads/2017/10/cropped-frontpage-1.jpg");
+} 
+
+.container {
+    display: flex;
+    background-color: burlywood;
+    color: black;
+    justify-content:right;
+    align-items:center;
+    font-size: 25px;
+    height: 30px;
+}
+
+.top2{
+    display: flex;
+    align-items:center;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.head {
+    margin-right:10px;
+}
+
+
+
+.side-header {
+    display: flex;
+    background-color: burlywood; 
+    text-align: center;
+    width: 150px;
+    padding: 10px 5px 0 5px;
+    color:black;
+    padding-left:0%;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top:0px;
+    left: 0px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited { 
+    text-decoration: none;
+    color: black; 
+}
+
+.hover:hover {
+    background-color:rgb(190, 118, 22);
+    border-radius: 10%;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.coffee-mid {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fafafa;
+     margin:-42.0625rem;
+     font-size: 25px;
+     
+     
+}
+
+ .coffee-logo {
+    border-radius: 100%;
+} 
+
+.mid-home {
+    margin:0.625rem;
+}
+
+
+/* MENU.HTML */
+
+
+
+ .menu-image {
+    width: auto;
+    height: 30vh;
+    border-radius: 10%;
+    box-shadow: 0.625rem 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.h1 {
+    display:flex;
+    justify-content: center;
+    font-family: Bookman, URW Bookman L, serif;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+h2, h1 {
+    color:rgb(190, 118, 22);
+}
+
+ .prices {
+    text-align: right;
+    width: 49%;
+    color:#fafafa;
+    font-size: 0.9375em;
+    font-weight: bold;
+}
+ 
+.items {
+    text-align: left;
+    width: 49%;
+    color: #fafafa;
+    font-size: 0.9375em;
+    font-weight: bold;
+}
+
+ 
+.inline-block p {
+    display: inline-block;
+    padding:1.875em; 
+    margin:auto;
+    
+} 
+
+
+.background {
+    background-color:rgb(190, 118, 22);
+    border-radius:10%;
+    box-shadow: 0.625rem 0.625rem;;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    position:static;
+    bottom:0;
+    background-color:burlywood;
+    margin-top: 12px;
+    
+}
+
+li {
+    list-style-type:none;
+}
+
+.button {
+    background-color: black;
+    color: #fafafa;
+
+}
+
+ul {
+    padding-left:0;
+}
