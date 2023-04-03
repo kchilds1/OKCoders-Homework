@@ -1,0 +1,48 @@
+ * {
+	box-sizing: border-box;
+}  
+
+.box-1 {
+	background-color: darkgoldenrod;
+	height: 200px;
+	width: 200px;
+	 margin: 10px;
+	padding: 10px;
+	border-width: 10px;
+	border-color: black;
+	border-style: solid; 
+}
+
+ .inner-box {
+	background-color: blueviolet;
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	/* good for centering */
+	
+ }
+
+ .button-1 {
+	 /* margin: 10px;
+	margin-right: 20px; 
+	
+	
+	 border: 1px dashed black;
+	border-width: 10px 20px 10px 10px;  */
+
+	 width: 200px;
+	height: 100px;
+
+	border-radius: 10px 1rem 33% 2em ;
+	
+    
+}
+
+ .button-2 {
+	width: 200px;
+	height: 100px;
+
+	border-radius: 10px 1rem 33% 2em ;
+    box-shadow: 2px 2px 2px 2px rgb(91, 89, 89); 
+	border-width: thin;
+}

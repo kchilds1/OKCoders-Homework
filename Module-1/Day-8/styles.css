@@ -1,0 +1,294 @@
+* {
+    Box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+}
+
+body {
+  background-image: url("https://elementalcoffee.com/wp-content/uploads/2017/10/cropped-frontpage-1.jpg");
+  
+} 
+
+/* HOME HTML */
+
+.container {
+    display: flex;
+    background-color: burlywood;
+    color: black;
+    justify-content:right;
+    align-items:center;
+    font-size: 1.5625rem;
+    height: 1.875rem;
+    position:sticky;
+    top:0;
+    flex-wrap: wrap;
+}
+
+.top2{
+    display: flex;
+    align-items:center;
+    padding-right: 0.625rem;
+    flex-wrap: wrap;
+}
+
+.mug-icon {
+    padding-right:0.625rem;
+}
+
+
+.head {
+    margin-right:0.625rem;
+}
+
+.side-header {
+    display: flex;
+    background-color: burlywood; 
+    text-align: center;
+    width: 9.375rem;
+    padding: 0.625rem 0.3rem 0 0.3rem;
+    color:black;
+    padding-left:0%;
+    flex-direction: column;
+    height: 100vh;
+    position: sticky;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    font-size: 1.5625rem;
+    float:left;
+}
+
+.cart {
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-left:0.625rem;
+    margin-bottom: 12.5rem;
+    background-color: rgb(190, 118, 22);
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    border-radius: 100%;
+   
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none;
+    color: black; 
+}
+
+.hover:hover {
+    background-color:rgb(190, 118, 22);
+    border-radius: 10%;
+    font-weight: bold;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.coffee-mid {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: #fafafa;
+     font-size: 1.5625rem;
+     text-align: center;
+}
+
+ .coffee-logo {
+    border-radius: 100%;
+} 
+
+.mid-home {
+    margin:0.625rem;
+}
+
+.home-button {
+    padding: 1.25rem;
+    color: #fafafafa;
+    font-weight:bold;
+    font-size:1.5625rem;
+    border-radius: 10%;
+    border-style:solid;
+    border-color:black;
+    border-width: 0.3rem;
+    background-color: rgb(190, 118, 22);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:burlywood;
+    margin-top: 45.25rem;
+    flex-wrap: wrap;
+    position:sticky;
+    bottom:0;
+}
+
+.message-icon {
+    display:flex;
+    justify-content: center;
+    align-content: center; 
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin-bottom:0.625rem;
+    margin-right:0.625rem;
+    background-color: rgb(190, 118, 22);
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    border-radius: 100%;
+    z-index:1;
+
+}
+
+/* MENU.HTML */
+
+ .menu-image {
+    width: auto;
+    height: 30vh;
+    border-radius: 10%;
+    box-shadow: 0.625rem 0.625rem;
+    margin-top: 0.625rem;
+}
+
+.h1 {
+    display:flex;
+    justify-content: center;
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+h2, h1 {
+    color:rgb(190, 118, 22);
+}
+
+ .prices {
+    text-align: right;
+    width: 49%;
+    color:#fafafa;
+    font-size: 0.9375em;
+    font-weight: bold;
+}
+ 
+.items {
+    text-align: left;
+    width: 49%;
+    color: #fafafa;
+    font-size: 0.9375em;
+    font-weight: bold;
+}
+
+ 
+.inline-block p {
+    display: inline-block;
+    padding:1.875em; 
+    margin:auto;
+    
+} 
+
+
+.background {
+    background-color:rgb(190, 118, 22);
+    border-radius:10%;
+    box-shadow: 0.625rem 0.625rem;;
+    
+}
+
+.adjust-width {
+    width: 78%;
+    margin-left:0.625rem;
+} 
+
+li {
+    list-style-type:none;
+}
+
+
+ul {
+    padding-left:0;
+}
+
+/* CONTACT INFO */
+
+form {
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-content: center;
+    background-color:burlywood; 
+    margin-top: 0.625rem;
+    padding: 1.25rem;
+    border-radius: 5%;
+    width:50%;
+    margin-left: 25%;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+}
+ .contact {
+    display: flex;
+    justify-content: center;
+    
+    
+} 
+
+.name {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contact-info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mi {
+    width: 1.25rem;
+    margin-right:0.625rem;
+}
+input, textarea, .submit-form {
+    border:none;
+    padding: 0.3rem;
+}
+
+.contact-info {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.submit {
+    background-color: rgb(190, 118, 22);
+    border:none;
+    border-radius: 10%;
+}
+
+/* ABOUT US */
+
+.about-message {
+    background-color:#fafafa;
+}
